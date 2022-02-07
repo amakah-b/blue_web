@@ -1,0 +1,167 @@
+/* CSS Reset */
+*{
+  padding:0px;
+  margin:0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body{
+  background:white;
+}
+
+#header{
+  width: 100%;
+  height: 80px;
+  background: #3C4AED;
+}
+
+#logo{
+  float:left;
+  width: 300px;
+  height:80px ;
+
+}
+
+.logoclass{
+  width: 150px;
+  margin-top:20px;
+  margin-left: 40px;
+}
+
+#navbox{
+  float: right;
+  width: 800px;
+  height: 80px;
+  
+}
+
+#navbox ul{
+  list-style: none;
+  font-family: 'Open Sans';
+}
+
+#navbox li a {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 16px;
+  color:white;
+  text-decoration: none;
+
+}
+
+.special{
+  
+  padding:10px 30px;
+  border-radius: 100px;
+  margin-top: 16px !important;
+  border:2px solid white;
+}
+
+.special:hover{
+  background: white;
+  border-radius: 100px;
+  margin-top: 16px !important;
+  border:2px solid white;
+  color:#3C4AED !important;
+}
+
+
+
+#banner{
+  width: 100%;
+  height: 600px;
+  background-color: #3C4AED;
+  font-family: 'Open Sans';
+}
+
+
+.container{
+  width: 1200px;
+  height: auto;
+  background: wheat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bannerbox{
+  float: left;
+  width: 50%;
+  height: 500px;
+ 
+  
+}
+
+.bannerbox h1{
+  font-size: 60px;
+  color:white;
+  margin-top: 80px;
+}
+
+.bannerbox p{
+  color:white;
+  font-size: 20px;
+}
+
+.bannerImg{
+  width: 700px;
+}
+
+#contentbox1{
+  width: 100%;
+  height: 500px;
+ 
+}
+
+.c-box{
+  float: left;
+  width: 300px;
+  height: 350px;
+  background: white;
+  margin-left: 30px;
+  margin-top: 100px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 16px rgb(230, 230, 230);
+  padding:30px 35px;
+  font-family: 'Open Sans';
+  transition: all .8s;
+
+}
+
+.c-box:hover{
+  float: left;
+  width: 300px;
+  height: 350px;
+  background: white;
+  margin-left: 30px;
+  margin-top: 50px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 16px rgb(151, 151, 151);
+  padding:30px 35px;
+  font-family: 'Open Sans';
+}
+
+
+.c-box h3{
+  margin-bottom: 15px;
+}
+.c-box p{
+  font-size: 16px;
+  color:#666;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 100px;
+  box-shadow: 0px 0px 26px rgb(237, 237, 237);
+  margin-bottom: 15px;
+}
+
+.iconclass{
+  width: 40px;
+  margin-top:30px;
+}
+
